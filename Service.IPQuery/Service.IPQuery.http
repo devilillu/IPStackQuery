@@ -1,0 +1,6 @@
+@Service.IPQuery_HostAddress = http://localhost:5257
+
+GET {{Service.IPQuery_HostAddress}}/api/query/
+Accept: application/json
+
+###

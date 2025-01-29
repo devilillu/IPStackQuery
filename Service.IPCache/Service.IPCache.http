@@ -1,0 +1,6 @@
+@Service.IPCache_HostAddress = http://localhost:5160
+
+GET {{Service.IPCache_HostAddress}}/api/cache/
+Accept: application/json
+
+###

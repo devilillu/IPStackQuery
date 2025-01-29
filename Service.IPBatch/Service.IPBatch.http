@@ -1,0 +1,6 @@
+@Service.IPBatch_HostAddress = http://localhost:5231
+
+GET {{Service.IPBatch_HostAddress}}/
+Accept: application/json
+
+###
